@@ -20,6 +20,29 @@
             background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
             overflow: hidden;
             font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        /* Bouton Quiz */
+        .quiz-btn {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            text-decoration: none;
+            background: #2563eb;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .quiz-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
         }
 
         h1 {
@@ -53,6 +76,10 @@
     </style>
 </head>
 <body>
+
+    <a href="https://quiz.mazavaina.org" class="quiz-btn">
+        🎯 Quiz
+    </a>
 
     <h1>Mazavaina</h1>
 
